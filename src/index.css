@@ -8,6 +8,18 @@ html {
 
 #home-page {
   font-family: 'Times New Roman', Times, serif;
+    background-color: #000;
+    background-image: url(https://media.tenor.com/0WtO3Sy6mtEAAAAC/aesthetic-stars.gif);
+    background-repeat: repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-size: 50px 50px;
+    z-index: -1;
+    animation: sparkles 1s linear infinite;
+
 }
 
 .navbar_home {
