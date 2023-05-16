@@ -1,6 +1,6 @@
 export function Home() {
   return (
-    <div>
+    <div id="home-page">
       <p>this is the home page</p>
     </div>
   );
