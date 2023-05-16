@@ -1,10 +1,12 @@
 import { Home } from "./Home";
+import { Routes, Route } from "react-router-dom";
 
 export function Content() {
   return (
     <div>
-      <h1>Let the race begin!</h1>
-      <Home />
+      <Routes>
+        <Route path="/home" element={<Home />} />
+      </Routes>
     </div>
   );
 }
