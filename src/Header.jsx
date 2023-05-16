@@ -3,13 +3,13 @@ export function Header() {
     <div>
       <nav>
         <div className="navbar_home">
-          <a href="#" className="home__page_navbar">
+          <a href="#" className="home_page_navbar">
             Home
           </a>
-          <a href="#" className="home__page_navbar">
+          <a href="#" className="home_page_navbar">
             My Story
           </a>
-          <a href="#" className="home__page_navbar">
+          <a href="#" className="home_page_navbar">
             Donation Progress
           </a>
         </div>
