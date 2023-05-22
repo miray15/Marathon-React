@@ -7,3 +7,5 @@ export function Home() {
     </div>
   );
 }
+
+// render.com -- host front, back, and db
