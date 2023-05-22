@@ -10,8 +10,8 @@
   background-size: cover;
   -webkit-background-clip: text;
   background-clip: text;
-  -webkit-text-fillc-color: transparent;
- */
+  -webkit-text-fillc-color: transparent; */
+
 
   background-color: #000;
   background-image: url(https://media.tenor.com/0WtO3Sy6mtEAAAAC/aesthetic-stars.gif);
@@ -48,3 +48,10 @@
     transform: skewX(0deg);
   }
 }
+
+
+.home_page_navbar {
+  color: yellow !important;
+}
+
+

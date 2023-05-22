@@ -21,6 +21,13 @@ html {
     z-index: -1;
     animation: sparkles 1s linear infinite;
 
+
+
+ 
+
+}
+#home-nav {
+  color: yellow !important;
 }
 
 .navbar_home {
