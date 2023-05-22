@@ -1,3 +1,6 @@
+import React from "react";
+import "./HomeStyle.css";
+
 export function Home() {
   return (
     <div id="home-page">

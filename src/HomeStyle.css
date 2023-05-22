@@ -1,0 +1,50 @@
+#home-page {
+
+  /* text-decoration-style: wavy;
+  text-underline-position: under;
+  animation: wavy 2s linear infinite;
+  text-align: center;
+  color: yellow;
+  font-size: 3rem;
+  background-image: url('https://img1.picmix.com/output/stamp/normal/6/3/8/4/254836_c277a.gif');
+  background-size: cover;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fillc-color: transparent;
+ */
+
+  background-color: #000;
+  background-image: url(https://media.tenor.com/0WtO3Sy6mtEAAAAC/aesthetic-stars.gif);
+  background-repeat: repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-size: 50px 50px;
+  z-index: -1;
+  animation: sparkles 1s linear infinite;
+}
+
+
+@keyframes wavy {
+  0% {
+    transform: skewX(0deg);
+  }
+
+  25% {
+    transform: skewX(10deg);
+  }
+
+  50% {
+    transform: skewX(-10deg);
+  }
+
+  75% {
+    transform: skewX(5deg);
+  }
+
+  100% {
+    transform: skewX(0deg);
+  }
+}

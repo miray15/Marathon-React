@@ -72,3 +72,39 @@ html {
     background-position: 0 100%;
   }
 }
+
+.intro {
+  text-decoration-style: wavy;
+  text-underline-position: under;
+  animation: wavy 2s linear infinite;
+  text-align: center;
+  color: yellow;
+  font-size: 3rem;
+  background-image: url('https://img1.picmix.com/output/stamp/normal/6/3/8/4/254836_c277a.gif');
+  background-size: cover;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes wavy {
+  0% {
+    transform: skewX(0deg);
+  }
+
+  25% {
+    transform: skewX(10deg);
+  }
+
+  50% {
+    transform: skewX(-10deg);
+  }
+
+  75% {
+    transform: skewX(5deg);
+  }
+
+  100% {
+    transform: skewX(0deg);
+  }
+}

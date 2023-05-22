@@ -1,7 +1,7 @@
 export function Header() {
   return (
     <div>
-      <nav>
+      {/* <nav>
         <div className="navbar_home">
           <a href="#" className="home_page_navbar">
             Home
@@ -18,7 +18,7 @@ export function Header() {
           <div className="burger-line"></div>
           <div className="burger-line"></div>
         </a>
-      </nav>
+      </nav> */}
     </div>
   );
 }
