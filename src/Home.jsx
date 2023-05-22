@@ -2,20 +2,20 @@ export function Home() {
   return (
     <div id="home-page">
       <nav id="home-nav">
-        <div className="">
+        <div>
           <a href="/home">Home</a>
           <a href="#">My Story</a>
           <a href="/donate">Donation Progress</a>
         </div>
       </nav>
 
-      <h1>Look, its 1996!</h1>
+      <h1 className="intro">Look, its 1996!</h1>
       <p>
         Were going back in time, to a place where{" "}
         <a href="https://firstmonday.org/ojs/index.php/fm/article/view/799/708">
           Al Gore invented the internet
         </a>
-        , everyone was getting Rick Rolled, and all of our favorite cats name
+        , everyone was getting Rick Rolled, and all of our favorite cat's name
         was{" "}
         <a
           href="https://www.youtube.com/watch?v=QH2-TGUlwu4&ab_channel=NyanCat

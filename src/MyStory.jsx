@@ -131,6 +131,28 @@ export function MyStory() {
           </div>
         </div>
       </div>
+
+      <h2 className="donate-subtitle">Lifestyle changes</h2>
+      <p className="mystory">
+        When I returned from China in 2017, I realized I needed a sport to
+        maintain my fitness and healthy habits. Running is easily one of the
+        most accessibles sports on the planet! Grab a pair of shoes and run! As
+        I got more competitive, I invested in a pair of shoes that matched the
+        needs of my feet, and since then have been updating them every 300
+        miles. I also began continued biking for my{" "}
+      </p>
+      <p>
+        My mother died of complications from diabetes, so in the last few years
+        I've been paying close attention to my A1C. Realizing that making
+        lifestyle changes later in life would be more challenging than making
+        them now, I started following the "Mediterranean Diet": eliminating all
+        meat except for seafood, and maintaining a strong intake of nuts and
+        seeds
+      </p>
+      <p>
+        This proved to be successful in lowering my A1C! I am in the lowest
+        bracket of the average range!
+      </p>
     </div>
   );
 }
