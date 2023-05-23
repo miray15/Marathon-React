@@ -48,7 +48,11 @@ export function Home() {
         power to take care of my own heart and everyone's heart around me ❤️{" "}
       </p>
 
-      <img src="https://miray15.github.io/mom-and-dad_3.jpeg" alt="Image" />
+      <img
+        src="https://miray15.github.io/mom-and-dad_3.jpeg"
+        alt="Image"
+        className="img_home"
+      />
     </div>
   );
 }
