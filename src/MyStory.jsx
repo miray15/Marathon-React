@@ -143,9 +143,9 @@ export function MyStory() {
       </p>
       <p>
         My mother died of complications from diabetes, so in the last few years
-        I've been paying close attention to my A1C. Realizing that making
+        I&apos;ve been paying close attention to my A1C. Realizing that making
         lifestyle changes later in life would be more challenging than making
-        them now, I started following the "Mediterranean Diet": eliminating all
+        them now, I started following the Mediterranean Diet: eliminating all
         meat except for seafood, and maintaining a strong intake of nuts and
         seeds
       </p>

@@ -133,3 +133,24 @@ a:visited {
 
 /* My Story */
 
+
+
+/* Doonate Page */
+
+/* fundraising thermometer */
+
+.thermometer {
+  background-color: #eee;
+  width: 50px;
+  height: 200px;
+  position: relative;
+}
+
+.fill {
+  background-color: #00CC66;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: height 0.3s ease-in-out;
+}

@@ -2,6 +2,7 @@ import { Home } from "./Home";
 import { Routes, Route } from "react-router-dom";
 import { Donate } from "./Donate";
 import { MyStory } from "./MyStory";
+// import { Thermometer } from "./Thermometer";
 
 export function Content() {
   return (
@@ -11,6 +12,7 @@ export function Content() {
         <Route path="/" element={<Home />} />
         <Route path="/donate" element={<Donate />} />
         <Route path="/mystory" element={<MyStory />} />
+        {/* <Route path="/thermometer" element={<Thermometer />} /> */}
       </Routes>
     </div>
   );
