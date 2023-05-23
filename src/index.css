@@ -26,7 +26,7 @@
 .navbar_home {
   color: yellow !important;
   background-size: cover;
-  background-color: grey;
+  background-color: black;
   display: inline-flex;
   justify-content: space-between; 
   align-items: center;
@@ -39,6 +39,18 @@
 .navbar_home a {
   margin-right: 20%; 
   color: yellow !important;
+}
+
+a {
+  color: green; /* Default link color */
+}
+
+a:hover {
+  color: red; /* Link color on hover */
+}
+
+a:visited {
+  color: purple; /* Link color for visited links */
 }
 
 
