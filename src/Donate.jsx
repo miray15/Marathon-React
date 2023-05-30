@@ -58,21 +58,25 @@ export function Donate() {
           you to donate even $10 to help me get to my goal. Every dollar counts!
         </p>
       </div>
-
-      <div className="donation-meter">
-        <strong>Our Goal</strong>
-        <strong className="goal">$9,001</strong>
-        <span className="glass">
-          <strong className="total" style={{ bottom: "30%" }}>
-            $4,500
-          </strong>
-          <span className="amount" style={{ height: "30%" }}></span>
-        </span>
-        <div className="bulb">
-          <span className="red-circle"></span>
-          <span className="filler">
-            <span></span>
-          </span>
+      <div id="countdown-wrap">
+        <div id="goal">$1,250</div>
+        <div id="glass">
+          <div id="progress">$35</div>
+        </div>
+        <div className="goal-stat">
+          <span className="goal-number">100%</span>
+          <span className="goal-label">Funded</span>
+        </div>
+        <div className="goal-stat">
+          <span className="goal-number">$1,250</span>
+          <span className="goal-label">Raised</span>
+        </div>
+        <div className="goal-stat">
+          <span className="goal-label">Days to Go</span>
+        </div>
+        <div className="goal-stat">
+          <span className="goal-number">38</span>
+          <span className="goal-label">Sponsors</span>
         </div>
       </div>
     </div>
