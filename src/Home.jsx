@@ -3,9 +3,9 @@ export function Home() {
     <div id="home-page">
       <nav>
         <div className="navbar_home">
-          <a href="/index.html">Home</a>
-          <a href="/mystory.html">My Story</a>
-          <a href="donate_2.html">Donation Progress</a>
+          <a href="#">Home</a>
+          <a href="/mystory">My Story</a>
+          <a href="donate">Donation Progress</a>
         </div>
       </nav>
 

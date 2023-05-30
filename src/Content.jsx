@@ -2,7 +2,7 @@ import { Home } from "./Home";
 import { Routes, Route } from "react-router-dom";
 import { Donate } from "./Donate";
 import { MyStory } from "./MyStory";
-// import { Thermometer } from "./Thermometer";
+// import { Thermometer } from "./thermometer";
 
 export function Content() {
   return (
