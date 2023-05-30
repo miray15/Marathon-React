@@ -1,6 +1,43 @@
-export function Donate() {
+import React, { useEffect, useState } from "react";
+
+function CountdownTimer() {
+  const [countdown, setCountdown] = useState(0);
+
+  useEffect(() => {
+    const end = new Date("2023-10-08");
+    const interval = setInterval(() => {
+      const now = new Date();
+      const distance = end - now;
+
+      if (distance < 0) {
+        clearInterval(interval);
+        setCountdown(0);
+        return;
+      }
+
+      const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      setCountdown(days);
+    }, 1000);
+
+    return () => {
+      clearInterval(interval);
+    };
+  }, []);
+
   return (
     <div>
+      <div id="countdown">{countdown}</div>
+
+      <div>{hours}hrs</div>
+      <div>{minutes}mins</div>
+      <div>{seconds}secs</div>
+    </div>
+  );
+}
+
+export function Donate() {
+  return (
+    <div className="Donate">
       <div>
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
           <div className="container-fluid">
@@ -62,21 +99,16 @@ export function Donate() {
           <div id="progress"></div>
         </div>
         <div className="goal-stat">
-          <span className="goal-number">16%</span>
+          <span className="goal-number">1%</span>
           <span className="goal-label">Funded</span>
         </div>
         <div className="goal-stat">
-          <span className="goal-number">$1,640</span>
+          <span className="goal-number">$35</span>
           <span className="goal-label">Raised</span>
         </div>
+
         <div className="goal-stat">
-          <span className="goal-number">
-            <div id="countdown"></div>
-          </span>
-          <span className="goal-label">Days to Go</span>
-        </div>
-        <div className="goal-stat">
-          <span className="goal-number">38</span>
+          <span className="goal-number">1</span>
           <span className="goal-label">Sponsors</span>
         </div>
       </div>
