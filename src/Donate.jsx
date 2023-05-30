@@ -1,5 +1,3 @@
-import React from "react";
-import ReactDOM from "react-dom";
 export function Donate() {
   return (
     <div>
@@ -59,7 +57,7 @@ export function Donate() {
         </p>
       </div>
       <div id="countdown-wrap">
-        <div id="goal">$10,000</div>
+        <div id="goal">$1,250</div>
         <div id="glass">
           <div id="progress"></div>
         </div>
