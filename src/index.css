@@ -145,12 +145,12 @@ a:visited {
 
 /* fundraising thermometer */
 body * {
-	font-family: 'Nunito', sans-serif;
-	box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+  box-sizing: border-box;
 }
 
 body {
-	background-color: #142F4C;
+  background-color: #142F4C;
 }
 
 #countdown-wrap {
