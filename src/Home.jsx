@@ -4,9 +4,9 @@ export function Home() {
       <nav>
         <div className="navbar_home">
           <a href="#">Home</a>
-
-          <a href="donate">Donation Progress</a>
+          <a href="/Family">Family</a>
           <a href="/mystory">My Story</a>
+          <a href="donate">Donate</a>
         </div>
       </nav>
 

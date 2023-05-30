@@ -1,39 +1,4 @@
-import React, { useEffect, useState } from "react";
-
-function CountdownTimer() {
-  const [countdown, setCountdown] = useState(0);
-
-  useEffect(() => {
-    const end = new Date("2023-10-08");
-    const interval = setInterval(() => {
-      const now = new Date();
-      const distance = end - now;
-
-      if (distance < 0) {
-        clearInterval(interval);
-        setCountdown(0);
-        return;
-      }
-
-      const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-      setCountdown(days);
-    }, 1000);
-
-    return () => {
-      clearInterval(interval);
-    };
-  }, []);
-
-  return (
-    <div>
-      <div id="countdown">{countdown}</div>
-
-      <div>{hours}hrs</div>
-      <div>{minutes}mins</div>
-      <div>{seconds}secs</div>
-    </div>
-  );
-}
+import React from "react";
 
 export function Donate() {
   return (
@@ -112,6 +77,15 @@ export function Donate() {
           <span className="goal-label">Sponsors</span>
         </div>
       </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
     </div>
   );
 }
