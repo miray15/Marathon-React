@@ -1,3 +1,5 @@
+import React from "react";
+import ReactDOM from "react-dom";
 export function Donate() {
   return (
     <div>
@@ -55,6 +57,23 @@ export function Donate() {
           The donations I&apos;ve received are a great start! I&apos;d love for
           you to donate even $10 to help me get to my goal. Every dollar counts!
         </p>
+      </div>
+
+      <div className="donation-meter">
+        <strong>Our Goal</strong>
+        <strong className="goal">$9,001</strong>
+        <span className="glass">
+          <strong className="total" style={{ bottom: "30%" }}>
+            $4,500
+          </strong>
+          <span className="amount" style={{ height: "30%" }}></span>
+        </span>
+        <div className="bulb">
+          <span className="red-circle"></span>
+          <span className="filler">
+            <span></span>
+          </span>
+        </div>
       </div>
     </div>
   );

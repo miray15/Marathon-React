@@ -144,19 +144,71 @@ a:visited {
 /* Doonate Page */
 
 /* fundraising thermometer */
+@import "compass/css3";
 
-.thermometer {
-  background-color: #eee;
-  width: 50px;
-  height: 200px;
-  position: relative;
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
 }
 
-.fill {
-  background-color: #00CC66;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  transition: height 0.3s ease-in-out;
+.donation-meter {
+  margin-left: 30px;
+  width: 100px;
+  .glass {
+    background: #e5e5e5;
+    border-radius: 100px 100px 0 0;
+    display: block;
+    height: 300px;
+    margin: 0 35px 10px;
+    padding: 5px;
+    position: relative;
+    width: 20px;
+  }
+  .amount {
+    background: #f34e54;
+    border-radius: 100px;
+    display: block;
+    width: 20px;
+    position: absolute;
+     bottom: 5px;
+  }
+  strong { display: block; text-align: center; }
+  .goal {
+    font-size: 30px;
+  }
+  .total {
+    font-size: 16px;
+    position: absolute;
+    right: 35px;
+  }
+}
+
+.bulb {
+  background: #e5e5e5;
+  border-radius: 100px;
+  display: block;
+  height: 50px;
+  margin: 0 35px 10px;
+  padding: 5px;
+  position: relative;
+    top: -20px;
+    right: 15px;
+  width: 50px;
+  .red-circle {
+    background: #f34e54;
+    border-radius: 100px;
+    display: block;
+    height: 50px;
+    width: 50px;
+  }
+  .filler {
+    background: #f34e54;
+    border-radius: 100px 100px 0 0;
+    display: block;
+    height: 30px;
+    width: 20px;
+    position: relative;
+      top: -65px;
+      right: -15px;
+    z-index: 30;
+  }
 }
