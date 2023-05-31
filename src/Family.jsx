@@ -30,12 +30,14 @@ export function Family() {
         <br />
         <br />
         <h3 className="baba-text">He was 66</h3>
-        <p className="baba-text">Baba the man that was supposed to walk me </p>
         <p className="baba-text">
-          down the aisle. He loved me unconditionally,{" "}
+          Baba and I didn't get along. We had different perspectives on life.
+          But that didn't mean I didn't want to have a loving relationship with
+          my father just as anyone would. When I was finally ready to see him,
+          it was too late. I met at him for the first time in 8 years at his
+          casket. Heart disease robbed me of the potential to develop a positive
+          relationship with my dad.
         </p>
-        <p className="baba-text">and while we didn't always see eye to eye, </p>{" "}
-        <p className="baba-text">I always knew he had the best intentions</p>
       </div>
 
       <br />
