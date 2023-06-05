@@ -4,13 +4,16 @@ export function Home() {
       <nav>
         <div className="navbar_home">
           <a href="#">Home</a>
+          <a href="signup">Sign Up</a>
+          <a href="login">Login</a>
+          <a href="logout">logout</a>
           <a href="/Family">Family</a>
           <a href="/mystory">My Story</a>
           <a href="donate">Donate</a>
         </div>
       </nav>
 
-      <h1 className="intro">Look, it's 1996!</h1>
+      <h1 className="intro">Look, it&apos;s 1996!</h1>
       <p className="home-pg">
         We&apos;re going back in time, to a place where{" "}
         <a href="https://firstmonday.org/ojs/index.php/fm/article/view/799/708">
