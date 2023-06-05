@@ -154,7 +154,15 @@ a:visited {
 .donate-header-font {
 font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
 font-size: 6rem;
+}
 
+.do-something { 
+  margin-left: 2%;
+  margin-bottom: 3%;
+}
+
+.incredible-now {
+  margin-left: 28%;
 }
 
 
