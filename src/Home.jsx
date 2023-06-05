@@ -57,6 +57,12 @@ export function Home() {
         alt="Image"
         className="img_home"
       />
+
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
     </div>
   );
 }

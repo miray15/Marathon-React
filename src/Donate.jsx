@@ -50,9 +50,11 @@ export function Donate() {
             </div>
           </div>
         </nav>
-
+        <h1 className="donate-header-font">DO SOMETHING</h1>{" "}
+        <p>
+          <h1 className="donate-header-font">INCREDIBLE NOW</h1>
+        </p>
         <h1>My Donation Progress</h1>
-
         <p>
           The donations I&apos;ve received are a great start! I&apos;d love for
           you to donate even $10 to help me get to my goal. Every dollar counts!
