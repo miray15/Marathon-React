@@ -111,6 +111,10 @@ a:visited {
   }
 }
 
+.home-pg {
+  margin-left: 6%;
+  margin-right: 6%;
+}
 
 .img_home {
   display: inline-block;
