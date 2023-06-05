@@ -2,6 +2,7 @@ import "./App.css";
 import { Content } from "./Content";
 import { Header } from "./Header";
 import { BrowserRouter } from "react-router-dom";
+import { Signup } from "./Signup";
 
 function App() {
   return (
@@ -9,7 +10,9 @@ function App() {
       <div>
         <BrowserRouter>
           <Header />
+
           <Content />
+          <Signup />
         </BrowserRouter>
       </div>
     </>

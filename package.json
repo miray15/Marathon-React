@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "axios": "^1.4.0",
     "bootstrap": "^5.2.3",
     "pain": "^0.0.1",
     "property": "^3.0.0",
