@@ -45,6 +45,7 @@ export function Donate() {
                     Make a donation
                   </a>
                 </li>
+                https://github.com/codespaces https://github.com/codespaces{" "}
                 <li className="nav-item dropdown"></li>
               </ul>
             </div>
@@ -54,6 +55,14 @@ export function Donate() {
         <div className="incredible-now">
           <h1 className="donate-header-font">INCREDIBLE NOW</h1>
         </div>
+
+        <a href="https://imgbb.com/">
+          <img
+            src="https://i.ibb.co/F8009Lj/hearts-hands.png"
+            alt="hearts-hands"
+            border="0"
+          />
+        </a>
         <h1>My Donation Progress</h1>
         <p>
           The donations I&apos;ve received are a great start! I&apos;d love for
