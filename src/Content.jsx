@@ -16,12 +16,26 @@ export function Content() {
     axios
       .get("http://localhost:3000/picture_comments.json")
       .then((response) => {
-        console.log(response.data.body);
+        console.log(response.data);
 
         setPictureComments(response.data);
       });
   };
   useEffect(handleIndexPictureComment, []);
+
+  const [donation_comment, setDonationComments] = useState([]);
+  const handleIndexDonationComment = () => {
+    console.log("in handle index donation_comments");
+    axios
+      .get("http://localhost:3000/donation_comments.json")
+      .then((response) => {
+        console.log(response.data);
+
+        setDonationComments(response.data);
+      });
+  };
+  useEffect(handleIndexDonationComment, []);
+
   return (
     <div className="container">
       <Routes>
