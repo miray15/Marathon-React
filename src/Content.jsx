@@ -10,7 +10,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 
 export function Content() {
-  const [picture_comment, setPictureComments] = useState([]);
+  const [pictureComments, setPictureComments] = useState([]);
   const handleIndexPictureComment = () => {
     console.log("in handle index picture_comments");
     axios
@@ -23,7 +23,7 @@ export function Content() {
   };
   useEffect(handleIndexPictureComment, []);
 
-  const [donation_comment, setDonationComments] = useState([]);
+  const [donationComments, setDonationComments] = useState([]);
   const handleIndexDonationComment = () => {
     console.log("in handle index donation_comments");
     axios
@@ -41,9 +41,15 @@ export function Content() {
       <Routes>
         <Route path="/home" element={<Home />} />
         <Route path="/" element={<Home />} />
-        <Route path="/donate" element={<Donate />} />
+        <Route
+          path="/donate"
+          element={<Donate donationComments={donationComments} />}
+        />
         <Route path="/mystory" element={<MyStory />} />
-        <Route path="/signup" element={<Signup />} />
+        <Route
+          path="/signup"
+          element={<Donate pictureComments={pictureComments} />}
+        />
         <Route path="/login" element={<Login />} />
         <Route path="/logout" element={<LogoutLink />} />
         <Route path="/family" element={<Family />} />

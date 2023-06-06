@@ -1,6 +1,7 @@
 import React from "react";
 
-export function Donate() {
+export function Donate(props) {
+  console.log(props.donationComments);
   return (
     <div className="Donate">
       <div>
@@ -82,7 +83,6 @@ export function Donate() {
           <span className="goal-number">$35</span>
           <span className="goal-label">Raised</span>
         </div>
-
         <div className="goal-stat">
           <span className="goal-number">1</span>
           <span className="goal-label">Sponsors</span>
@@ -97,6 +97,20 @@ export function Donate() {
       <br />
       <br />
       <br />
+
+      {props.donationComments.map((comment) => (
+        <div key={comment.id}>
+          <h2>{comment.body}</h2>
+        </div>
+      ))}
+
+      <h1>New comment</h1>
+      <form>
+        <div>
+          body: <input name="body" type="text" />
+        </div>
+        <button type="submit">Create comment</button>
+      </form>
     </div>
   );
 }
