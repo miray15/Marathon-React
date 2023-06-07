@@ -8,6 +8,7 @@ import { Login } from "./Login";
 import { LogoutLink } from "./LogoutLink";
 import { useState, useEffect } from "react";
 import axios from "axios";
+import { Subscribe } from "./Subscribe";
 
 export function Content() {
   const [pictureComments, setPictureComments] = useState([]);
@@ -50,6 +51,7 @@ export function Content() {
           element={<MyStory pictureComments={pictureComments} />}
         />
         <Route path="/signup" element={<Signup />} />
+        <Route path="/subscribe" element={<Subscribe />} />
         <Route path="/login" element={<Login />} />
         <Route path="/logout" element={<LogoutLink />} />
         <Route path="/family" element={<Family />} />

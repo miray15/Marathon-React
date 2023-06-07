@@ -167,6 +167,17 @@ export function MyStory(props) {
         bracket of the average range!
       </p>
 
+      {/* online subscribe button js */}
+
+      <script
+        async
+        data-uid="2677c98a82"
+        src="https://runmimirun.ck.page/2677c98a82/index.js"
+      ></script>
+
+      {/* html  */}
+      <script src="https://f.convertkit.com/ckjs/ck.5.js"></script>
+
       {props.pictureComments.map((picture) => (
         <div key={picture.id}>
           <h2>{picture.body}</h2>
