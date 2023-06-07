@@ -45,11 +45,11 @@ export function Content() {
           path="/donate"
           element={<Donate donationComments={donationComments} />}
         />
-        <Route path="/mystory" element={<MyStory />} />
         <Route
-          path="/signup"
-          element={<Donate pictureComments={pictureComments} />}
+          path="/mystory"
+          element={<MyStory pictureComments={pictureComments} />}
         />
+        <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
         <Route path="/logout" element={<LogoutLink />} />
         <Route path="/family" element={<Family />} />

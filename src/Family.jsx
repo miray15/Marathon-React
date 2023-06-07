@@ -1,6 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 
 export function Family() {
+  const [likeCount, setLikeCount] = useState(0);
+
+  const handleLike = () => {
+    setLikeCount(likeCount + 1);
+  };
   return (
     <div
       className="container"
@@ -38,7 +43,10 @@ export function Family() {
           and my brothers endlessly.
         </p>
       </div>
-
+      <div>
+        <button onClick={handleLike}>Like</button>
+        <p>{likeCount} Likes</p>
+      </div>
       <br />
       <br />
       <br />

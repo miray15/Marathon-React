@@ -5,6 +5,7 @@ import { BrowserRouter } from "react-router-dom";
 import { Signup } from "./Signup";
 import { Login } from "./Login";
 import { LogoutLink } from "./LogoutLink";
+import NewsletterSignup from "./NewsletterSignup";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <BrowserRouter>
           <Header />
           <Content />
+          <NewsletterSignup />
           {/* <Signup />
           <Login />
           <LogoutLink /> */}

@@ -1,4 +1,12 @@
-export function MyStory() {
+import React, { useState } from "react";
+
+export function MyStory(props) {
+  console.log(props.pictureComments);
+  const [likeCount, setLikeCount] = useState(0);
+
+  const handleButtonClick = () => {
+    setLikeCount(likeCount + 1);
+  };
   return (
     <div>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
@@ -132,6 +140,11 @@ export function MyStory() {
         </div>
       </div>
 
+      <div>
+        <button onClick={handleButtonClick}>Like</button>
+        <p>{likeCount} Likes</p>
+      </div>
+
       <h2 className="donate-subtitle">Lifestyle changes</h2>
       <p className="mystory">
         When I returned from China in 2017, I realized I needed a sport to
@@ -153,6 +166,20 @@ export function MyStory() {
         This proved to be successful in lowering my A1C! I am in the lowest
         bracket of the average range!
       </p>
+
+      {props.pictureComments.map((picture) => (
+        <div key={picture.id}>
+          <h2>{picture.body}</h2>
+        </div>
+      ))}
+
+      <h1>New comment</h1>
+      <form>
+        <div>
+          body: <input name="body" type="text" />
+        </div>
+        <button type="submit">Create comment</button>
+      </form>
     </div>
   );
 }
