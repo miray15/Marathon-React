@@ -259,12 +259,14 @@ body {
 /* family */
 
 .parents_background { 
-    background-image: url("https://i.postimg.cc/sxxtV2dr/SCAN0088-2.jpg");
+    background-image: url('https://i.postimg.cc/sxxtV2dr/SCAN0088-2.jpg');
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
-  
+     
   }
   
+
 
 /* https://owumaro.github.io/text-stroke-generator/ for shading in text */
 
