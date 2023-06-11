@@ -61,7 +61,7 @@ export function MyStory(props) {
       <h1>My Race Story</h1>
 
       <h2 className="donate-subtitle">Lifestyle changes</h2>
-      <div className="nye_race">
+      <div className="image-container">
         <img src="https://miray15.github.io/removed_backgroun2.jpg" alt="" />
       </div>
 
