@@ -28,13 +28,6 @@ export function Family() {
         <button onClick={handleLike}>Like</button>
         <p>{likeCount} Likes</p>
       </div>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
     </div>
   );
 }
