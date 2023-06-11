@@ -143,6 +143,38 @@ a:visited {
 
 /* My Story */
 
+/* .container {
+        display: flex;
+        align-items: center;
+        justify-content: center
+      }
+      img {
+        max-width: 100%
+      }
+      .image {
+        flex-basis: 40%
+      }
+      .text {
+        font-size: 20px;
+        padding-left: 20px;
+      } */
+
+.container-carousel {
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mystory {
+  display: flexbox;
+}
+
+.container {
+  display: flexbox;
+}
 
 
 /* Donate Page */

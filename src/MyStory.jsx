@@ -52,9 +52,8 @@ export function MyStory(props) {
           </div>
         </div>
       </nav>
-
+      <h1>My Race Story</h1>
       <div className="container-carousel">
-        <h1>My Race Story</h1>
         <div className="carousel-size">
           <div
             id="race_carousel"
@@ -87,7 +86,21 @@ export function MyStory(props) {
               <div className="carousel-item active">
                 <img
                   src="https://miray15.github.io/NYE-race-400px.png"
-                  className="d-block w-100"
+                  className="race-image"
+                  alt="..."
+                />
+                <div className="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>
+                    Some representative placeholder content for the first slide.
+                  </p>
+                </div>
+              </div>
+              <div className="carousel-inner">
+              <div className="carousel-item active">
+                <img
+                  src="https://miray15.github.io/IMG_3938.JPG"
+                  className="race-image"
                   alt="..."
                 />
                 <div className="carousel-caption d-none d-md-block">
@@ -100,7 +113,7 @@ export function MyStory(props) {
               <div className="carousel-item">
                 <img
                   src="https://miray15.github.io/hotcoco_400px.jpg"
-                  className="d-block w-100"
+                  className="race-image"
                   alt="..."
                 />
                 <div className="carousel-caption d-none d-md-block">
@@ -138,12 +151,20 @@ export function MyStory(props) {
             </button>
           </div>
         </div>
+        <p className="mystory">
+          When I returned from China in 2017, I realized I needed a sport to
+          maintain my fitness and healthy habits. Running is easily one of the
+          most accessibles sports on the planet! Grab a pair of shoes and run!
+          As I got more competitive, I invested in a pair of shoes that matched
+          the needs of my feet, and since then have been updating them every 300
+          miles. I also began continued biking for my{" "}
+        </p>
       </div>
 
-      <div>
+      {/* <div>
         <button onClick={handleButtonClick}>Like</button>
         <p>{likeCount} Likes</p>
-      </div>
+      </div> */}
 
       <h2 className="donate-subtitle">Lifestyle changes</h2>
       <p className="mystory">
