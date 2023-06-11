@@ -38,9 +38,16 @@ export function Family() {
         <h3 className="baba-text">He was 66</h3>
         <p className="baba-text">
           My dad wanted the best for me, and worked hard to design a future
-          where I would experience success. He learned to bake the best bread,
-          make wheels of cheese he shared with family and friends, and loved me
-          and my brothers endlessly.
+          where{" "}
+        </p>{" "}
+        <p className="baba-text">
+          I would feel success. He learned to bake the best bread, make wheels
+          of cheese{" "}
+        </p>{" "}
+        <p className="baba-text">
+          {" "}
+          he shared with family and friends, and loved me and my brothers
+          endlessly.
         </p>
       </div>
       <div>

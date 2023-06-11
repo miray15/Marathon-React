@@ -1,12 +1,17 @@
+<script
+  async
+  data-uid="4737ef7369"
+  src="https://runmimirun.ck.page/4737ef7369/index.js"
+></script>;
+
 export function Home() {
   return (
     <div id="home-page">
       <nav>
         <div className="navbar_home">
-          <a href="#">Home</a>
-          <a href="signup">Sign Up</a>
-          <a href="login">Login</a>
-          <a href="logout">logout</a>
+          {/* <a href="signup">Sign Up</a> */}
+          {/* <a href="login">Login</a> */}
+          {/* <a href="logout">logout</a> */}
           <a href="/Family">Family</a>
           <a href="/mystory">My Story</a>
           <a href="donate">Donate</a>

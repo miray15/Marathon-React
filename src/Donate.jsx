@@ -1,4 +1,32 @@
 import React from "react";
+import { useEffect } from "react";
+
+function App() {
+  useEffect(() => {
+    const script = document.createElement("script");
+
+    script.src =
+      "https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js";
+
+    script.async = true;
+
+    script.integrity =
+      "sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p";
+
+    script.crossOrigin = "anonymous";
+
+    document.body.appendChild(script);
+
+    return () => {
+      // clean up the script when the component in unmounted
+      document.body.removeChild(script);
+    };
+  }, []);
+
+  return <div className="App"></div>;
+}
+
+export default App;
 
 export function Donate(props) {
   console.log(props.donationComments);
