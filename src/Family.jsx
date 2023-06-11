@@ -29,18 +29,21 @@ export function Family() {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
-                  Home
+                <a
+                  className="nav-link active"
+                  aria-current="page"
+                  href="/mystory"
+                >
+                  My Story
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
-                  Home
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
-                  Home
+                <a
+                  className="nav-link active"
+                  aria-current="page"
+                  href="/donate"
+                >
+                  Donate
                 </a>
               </li>
             </ul>
@@ -68,10 +71,10 @@ export function Family() {
           wheels of cheese he shared with family and friends, and loved me and
           my brothers endlessly.
         </p>
-        <div>
+        {/* <div>
           <button onClick={handleLike}>Like</button>
           <p>{likeCount} Likes</p>
-        </div>
+        </div> */}
       </div>
     </div>
   );

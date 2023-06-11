@@ -1,33 +1,6 @@
 import React from "react";
 import { useEffect } from "react";
 
-function App() {
-  useEffect(() => {
-    const script = document.createElement("script");
-
-    script.src =
-      "https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js";
-
-    script.async = true;
-
-    script.integrity =
-      "sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p";
-
-    script.crossOrigin = "anonymous";
-
-    document.body.appendChild(script);
-
-    return () => {
-      // clean up the script when the component in unmounted
-      document.body.removeChild(script);
-    };
-  }, []);
-
-  return <div className="App"></div>;
-}
-
-export default App;
-
 export function Donate(props) {
   console.log(props.donationComments);
   return (
@@ -53,28 +26,37 @@ export function Donate(props) {
             >
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                  <a
-                    className="nav-link active"
-                    aria-current="page"
-                    href="/index.html"
-                  >
+                  <a className="nav-link active" aria-current="page" href="/">
                     Home
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="mystory.html">
-                    My race story
+                  <a
+                    className="nav-link active"
+                    aria-current="page"
+                    href="/family"
+                  >
+                    Family
                   </a>
                 </li>
                 <li className="nav-item">
                   <a
-                    className="nav-link"
-                    href="https://www2.heart.org/site/TR/Marathon/MWA-MidWestAffiliate?px=26207527&pg=personal&fr_id=8944"
+                    className="nav-link active"
+                    aria-current="page"
+                    href="/mystory"
                   >
-                    Make a donation
+                    My Story
                   </a>
                 </li>
-                https://github.com/codespaces https://github.com/codespaces{" "}
+                <li className="nav-item">
+                  <a
+                    className="nav-link active"
+                    aria-current="page"
+                    href="https://www2.heart.org/site/TR/Marathon/MWA-MidWestAffiliate?px=26207527&pg=personal&fr_id=8944"
+                  >
+                    Make a Donation
+                  </a>
+                </li>
                 <li className="nav-item dropdown"></li>
               </ul>
             </div>
