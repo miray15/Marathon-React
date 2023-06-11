@@ -31,27 +31,32 @@ export function MyStory(props) {
                   Home
                 </a>
               </li>
+
               <li className="nav-item">
-                <a className="nav-link" href="/donate">
+                <a
+                  className="nav-link active"
+                  aria-current="page"
+                  href="/donate"
+                >
                   Donation Progress
                 </a>
               </li>
               <li className="nav-item">
                 <a
-                  className="nav-link"
-                  href="https://www2.heart.org/site/TR/Marathon/MWA-MidWestAffiliate?px=26207527&pg=personal&fr_id=8944"
+                  className="nav-link active"
+                  aria-current="page"
+                  href="/mystory"
                 >
-                  Make a donation
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="/mystory">
                   My Story
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/family">
-                  Mom & Dad
+                <a
+                  className="nav-link active"
+                  aria-current="page"
+                  href="/family"
+                >
+                  Family
                 </a>
               </li>
             </ul>
