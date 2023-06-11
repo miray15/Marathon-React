@@ -159,20 +159,9 @@ a:visited {
         padding-left: 20px;
       } */
 
-.container-carousel {
-  margin-left: 0%;
-  margin-right: 0%;
-  margin-top: 5%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+
 
 .mystory {
-  display: flexbox;
-}
-
-.container {
   display: flexbox;
 }
 
@@ -269,6 +258,13 @@ body {
 
 /* family */
 
+.parents_background { 
+    background-image: url("https://i.postimg.cc/sxxtV2dr/SCAN0088-2.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  
+  }
+  
 
 /* https://owumaro.github.io/text-stroke-generator/ for shading in text */
 
