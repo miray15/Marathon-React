@@ -14,7 +14,7 @@ export function Home() {
           {/* <a href="logout">logout</a> */}
           <a href="/Family">Family</a>
           <a href="/mystory">My Story</a>
-          <a href="donate">Donate</a>
+          <a href="/donate">Donate</a>
         </div>
       </nav>
 

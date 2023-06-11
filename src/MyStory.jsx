@@ -27,16 +27,12 @@ export function MyStory(props) {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a
-                  className="nav-link active"
-                  aria-current="page"
-                  href="/index.html"
-                >
+                <a className="nav-link active" aria-current="page" href="/">
                   Home
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="donate_2.html">
+                <a className="nav-link" href="/donate">
                   Donation Progress
                 </a>
               </li>
@@ -46,6 +42,16 @@ export function MyStory(props) {
                   href="https://www2.heart.org/site/TR/Marathon/MWA-MidWestAffiliate?px=26207527&pg=personal&fr_id=8944"
                 >
                   Make a donation
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="/mystory">
+                  My Story
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="/family">
+                  Mom & Dad
                 </a>
               </li>
             </ul>
