@@ -8,12 +8,15 @@ export function Family() {
   };
   return (
     <div className="parents_background">
+      <br />
       <h3 className="mama-text">She was 58</h3>
       <p className="mama-text">
         When my mom died my sophomore year of college, I would never hear her
         voice, taste her food, or rest my head on her shoulder. It was the most
         devastating thing that happened to me.
       </p>
+      <br />
+      <br /> <br />
       <br />
       <br /> <br />
       <br />
