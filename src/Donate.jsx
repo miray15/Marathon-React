@@ -108,10 +108,6 @@ export function Donate(props) {
           <span className="goal-number">$35</span>
           <span className="goal-label">Raised</span>
         </div>
-        <div className="goal-stat">
-          <span className="goal-number">1</span>
-          <span className="goal-label">Sponsors</span>
-        </div>
       </div>
 
       {props.donationComments.map((comment) => (
