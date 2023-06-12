@@ -27,17 +27,15 @@ h1 {
     animation: sparkles 1s linear infinite;
     text-align: center;
     height: 100vh;
+    width: 100vw;
     padding: 0;
   margin: 0;
-
-  ;
-
-  object-fit: cover;
+  /* object-fitp: cover; */
 
 }
 
 .img_home {
-  display: inline-block;
+  display: flex;
   margin-left: auto;
   margin-right: auto;
   max-width: 100%;
@@ -96,7 +94,7 @@ a:hover {
 }
 
 a:visited {
-  color: yellow; 
+  color: lightgreen; 
 }
 
 
@@ -351,7 +349,6 @@ text-align: center;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     width: 100vw;
     height: 100vh;
       
