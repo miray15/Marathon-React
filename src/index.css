@@ -146,8 +146,9 @@ a:visited {
 /* My Story */
 
 
-.mystory {
-  display: flexbox;
+.mystory-div {
+  background-color: #808471;
+  
 }
 
 .image-container {
@@ -181,6 +182,20 @@ a:visited {
   margin-bottom: 10px;
 }
 
+.mystory-button {
+ 
+  
+  background-color: #b5b9aa;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+/* Add hover effect */
+button:hover {
+  background-color: #45a049;
+}
 
 
 
@@ -302,7 +317,7 @@ text-align: center;
  /* family navbar */
 
 .navbar {
-  background-color: #f0f0f0;
+  background-color: #Aab5b9;
   padding: 10px;
   display: flex;
   justify-content: flex-end; /* Align items to the right */

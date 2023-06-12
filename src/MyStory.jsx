@@ -9,7 +9,7 @@ export function MyStory(props) {
   // };
 
   return (
-    <div>
+    <div className="mystory-div">
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
           <a className="navbar-brand" href="#"></a>
@@ -63,7 +63,6 @@ export function MyStory(props) {
         </div>
       </nav>
       <h1>My Race Story</h1>
-
       <div className="image-container">
         <img
           src="https://i.ibb.co/2FpbZkN/WWUR2439.jpg"
@@ -88,9 +87,9 @@ export function MyStory(props) {
             went down since my diet change, and I&apos;m now in the lowest
             healthy bracket for adults! If you&apos;re like me and looking to
             make a lifestyle change, grab a pair of shoes and hit the road! Your
-            healthier self will thank you! Comment your own journey to health
-            below!
+            healthier self will thank you. below!
           </p>
+          <br />
         </div>
         <img
           src="https://miray15.github.io/removed_backgroun2.jpg"
@@ -98,22 +97,22 @@ export function MyStory(props) {
           style={{ height: "100%", width: "50%", objectFit: "cover" }}
         />
       </div>
-
+      <br />
       {props.pictureComments.map((picture) => (
         <div key={picture.id}>
           <h2>{picture.body}</h2>
         </div>
       ))}
-
-      <h1>I have Something to Say:</h1>
+      <h3 className="mystory-comment-title">Here&apos;s my story:</h3>
       <form>
-        <div>
-          body:{" "}
+        <div className="mystory-comment-box">
           <textarea rows="4" cols="50">
-            This is a text paragraph input.
+            Write about your own victories here
           </textarea>
         </div>
-        <button type="submit">Share my Story</button>
+        <button type="submit" className="mystory-button">
+          Share my Story
+        </button>
       </form>
     </div>
   );
