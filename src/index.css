@@ -1,30 +1,16 @@
 
 
 
-#root {
-  margin: 0;
-  padding: 0;
-  
-}
+
 
 
 * {
   margin: 0;
   padding: 0;
-  }
+} 
 
-body, html {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-.html-page {
-  margin: 0;
-}
-
-#root {
-  margin: 0;
+h1 {
+  margin-top: 0px;
 }
 
 /* Home Page */
@@ -34,19 +20,18 @@ body, html {
     background-color: #000;
     background-image: url(https://media.tenor.com/0WtO3Sy6mtEAAAAC/aesthetic-stars.gif);
     background-repeat: repeat;
+    position: absolute;
     top: 0;
     left: 0;
-    height: 100%;
-    width: 100%;
-    background-size: 50px 50px;
-    z-index: -1;
+   z-index: -1;
     animation: sparkles 1s linear infinite;
     text-align: center;
-    box-sizing: border-box;
     height: 100vh;
     padding: 0;
   margin: 0;
-  box-sizing: border-box;
+  box-sizing:inherit
+  ;
+
   object-fit: cover;
 
 }
@@ -183,7 +168,7 @@ a:visited {
   height: 70vh;
 }
 
-.text-container {
+.text-container-left {
   width: 100%;
   margin-top: 10px;
 }

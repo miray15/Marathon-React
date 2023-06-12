@@ -142,9 +142,7 @@ export function Donate(props) {
       ))}
 
       <>
-        <h1 className="donation_comments">
-          My Reasons for Making a Difference
-        </h1>
+        <h1 className="donation_comments">Why I Want to Make a Difference</h1>
         <form className="donation_comments">
           <div className="donation_comments">
             <textarea rows="4" cols="50">
