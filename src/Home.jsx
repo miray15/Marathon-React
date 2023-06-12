@@ -12,6 +12,7 @@ export function Home() {
           {/* <a href="signup">Sign Up</a> */}
           {/* <a href="login">Login</a> */}
           {/* <a href="logout">logout</a> */}
+          <a href="/">Home</a>
           <a href="/Family">Family</a>
           <a href="/mystory">My Story</a>
           <a href="/donate">Donate</a>

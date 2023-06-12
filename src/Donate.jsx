@@ -62,23 +62,31 @@ export function Donate(props) {
             </div>
           </div>
         </nav>
-        <h1 className="donate-header-font do-something">DO SOMETHING</h1>
-        <div className="incredible-now">
-          <h1 className="donate-header-font">INCREDIBLE NOW</h1>
-        </div>
+        <div className="hands-container">
+          <h1 className="donate-header-font do-something">DO SOMETHING</h1>
 
-        <a href="https://imgbb.com/">
+          <h1 className="donate-header-font">INCREDIBLE </h1>
           <img
-            src="https://i.ibb.co/F8009Lj/hearts-hands.png"
-            alt="hearts-hands"
+            src="https://i.ibb.co/fDNHFht/My-project-2.png"
+            alt="My-project-2"
             border="0"
+            className="hands-image"
           />
-        </a>
+        </div>
         <h1>My Donation Progress</h1>
         <p>
-          The donations I&apos;ve received are a great start! I&apos;d love for
-          you to donate even $10 to help me get to my goal.
+          The donations I've received are a great start! I'd love for you to
+          donate even $10 to help me get to my goal. You can donate{" "}
+          <a href="https://www2.heart.org/site/TR/Marathon/MWA-MidWestAffiliate?px=26207527&pg=personal&fr_id=8944">
+            here
+          </a>
+          .
         </p>
+
+        <a
+          href="https://www2.heart.org/site/TR/Marathon/MWA-MidWestAffiliate?px=26207527&pg=personal&fr_id=8944"
+          alt="here"
+        />
       </div>
       <div id="countdown-wrap">
         <div id="goal">$1,250</div>
@@ -114,13 +122,15 @@ export function Donate(props) {
         </div>
       ))}
 
-      <h1>New comment</h1>
-      <form>
-        <div>
-          body: <input name="body" type="text" />
-        </div>
-        <button type="submit">Create comment</button>
-      </form>
+      <>
+        <h1>New comment</h1>
+        <form>
+          <div>
+            body: <input name="body" type="text" />
+          </div>
+          <button type="submit">Create comment</button>
+        </form>
+      </>
     </div>
   );
 }
