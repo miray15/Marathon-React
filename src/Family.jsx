@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 
 export function Family() {
-  const [likeCount, setLikeCount] = useState(0);
+  // const [likeCount, setLikeCount] = useState(0);
 
-  const handleLike = () => {
-    setLikeCount(likeCount + 1);
-  };
+  // const handleLike = () => {
+  //   setLikeCount(likeCount + 1);
+  // };
   return (
     <div>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">

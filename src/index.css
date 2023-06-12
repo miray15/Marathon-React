@@ -2,18 +2,32 @@
 
 
 #root {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 0;
   
 }
 
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.html-page {
+  margin: 0;
+}
+
+#root {
+  margin: 0;
+}
+
 /* Home Page */
-#home-page {
+.home-page {
   font-family: 'Times New Roman', Times, serif;
   color: white;
     background-color: #000;
     background-image: url(https://media.tenor.com/0WtO3Sy6mtEAAAAC/aesthetic-stars.gif);
     background-repeat: repeat;
-    position: absolute;
     top: 0;
     left: 0;
     height: 100%;
@@ -22,8 +36,41 @@
     z-index: -1;
     animation: sparkles 1s linear infinite;
     text-align: center;
+    box-sizing: border-box;
+    height: 100vh;
+    padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  object-fit: cover;
 
 }
+
+.img_home {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+  opacity: 0;
+  animation: fadeIn 6s ease-in-out forwards;
+  object-fit: cover;
+}
+
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
 
 .navbar_home {
   color: yellow !important;
@@ -50,7 +97,7 @@ margin-bottom: 1%;
 }
 
 a {
-  color: green; /* Default link color */
+  color: yellow; 
 }
 
 a:hover {
@@ -58,7 +105,7 @@ a:hover {
 }
 
 a:visited {
-  color: purple; /* Link color for visited links */
+  color: yellow; 
 }
 
 
@@ -113,35 +160,8 @@ a:visited {
   }
 }
 
-.home-pg {
-  margin-left: 6%;
-  margin-right: 6%;
-}
-
-.img_home {
-  display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 100%;
-  height: auto;
-  opacity: 0;
-  animation: fadeIn 6s ease-in-out forwards;
-}
 
 
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
-}
 
 /* My Story */
 
@@ -305,7 +325,7 @@ text-align: center;
 .parents_background { 
     background-image: url('https://i.postimg.cc/sxxtV2dr/SCAN0088-2.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: absolute;
     background-repeat: no-repeat;
       flex-direction: column;
       justify-content: center;

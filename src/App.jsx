@@ -1,6 +1,7 @@
 import "./App.css";
 import { Content } from "./Content";
 import { Header } from "./Header";
+import { Footer } from "./Footer";
 import { BrowserRouter } from "react-router-dom";
 import { Signup } from "./Signup";
 import { Login } from "./Login";
@@ -29,6 +30,7 @@ function App() {
           <Login />
           <LogoutLink /> */}
           {/* <Subscribe /> */}
+          <Footer />
         </BrowserRouter>
       </div>
     </>
