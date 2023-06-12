@@ -111,7 +111,8 @@ export function Donate(props) {
             you for joining me in supporting the American Heart Association and
             the fight against heart disease. Together, we can make a lasting
             difference in the lives of individuals and families affected by this
-            devastating condition. Let's empower hearts and save lives!
+            devastating condition. Let's empower hearts and save lives! Scroll
+            down for donation progress.
           </p>
         </div>
       </div>
