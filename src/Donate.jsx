@@ -74,13 +74,13 @@ export function Donate(props) {
           />
 
           <h1>My Donation Progress</h1>
-          <p>
+          <p className="donate_pg">
             I am incredibly grateful for the generosity shown so far, and your
             support has been fundamental in fueling my fundraising efforts for
             the American Heart Association. However, there's still more to
             accomplish.
           </p>
-          <p>
+          <p className="donate_pg">
             Every contribution, regardless of its size, has the potential to
             make a significant impact in the fight against heart disease. Even a
             $10 donation from you can help save lives and support groundbreaking
@@ -92,20 +92,20 @@ export function Donate(props) {
             health, preventing cardiovascular diseases, and improving the lives
             of those affected.
           </p>
-          <p>
+          <p className="donate_pg">
             Together, we can create a world where heart disease is a thing of
             the past. Your donation, no matter the amount, will contribute to
             our collective progress. Let's track our donation progress and
             celebrate each step forward on the path to a healthier future.
           </p>
-          <p>
+          <p className="donate_pg">
             To make a donation and keep track of our collective impact, please{" "}
             <a href="https://www2.heart.org/site/TR/Marathon/MWA-MidWestAffiliate?px=26207527&pg=personal&fr_id=8944">
               visit this page
             </a>
             .
           </p>
-          <p>
+          <p className="donate_pg">
             Your involvement with the American Heart Association and your
             contribution will help drive positive change and save lives. Thank
             you for joining me in supporting the American Heart Association and
