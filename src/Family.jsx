@@ -74,7 +74,11 @@ export function Family() {
         <br />
         <br /> <br />
         <br />
+        <br />
+        <br />
         <br /> <br />
+        <br />
+        <br />
         <br />
         <h3 className="baba-text">He was 66</h3>
         <p className="baba-text">
