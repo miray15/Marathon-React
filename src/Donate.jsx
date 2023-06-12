@@ -142,16 +142,25 @@ export function Donate(props) {
       ))}
 
       <>
-        <h1 className="donation_comments">New comment</h1>
+        <h1 className="donation_comments">
+          My Reasons for Making a Difference
+        </h1>
         <form className="donation_comments">
           <div className="donation_comments">
-            body: <input name="body" type="text" />
+            <textarea rows="4" cols="50">
+              Share your reasons for donating
+            </textarea>
           </div>
-          <button type="submit" className="donation_comments">
+          <button type="submit" className="donation_button">
             Create comment
           </button>
         </form>
       </>
+
+      <br />
+      <br />
+      <br />
+      <br />
     </div>
   );
 }

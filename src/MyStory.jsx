@@ -103,7 +103,7 @@ export function MyStory(props) {
           <h2>{picture.body}</h2>
         </div>
       ))}
-      <h3 className="mystory-comment-title">Here&apos;s my story:</h3>
+      <h3 className="mystory-comment-title">Share Your Health Journey</h3>
       <form>
         <div className="mystory-comment-box">
           <textarea rows="4" cols="50">
