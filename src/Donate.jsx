@@ -81,21 +81,9 @@ export function Donate(props) {
             accomplish.
           </p>
           <p className="donate_pg">
-            Every contribution, regardless of its size, has the potential to
-            make a significant impact in the fight against heart disease. Even a
-            $10 donation from you can help save lives and support groundbreaking
-            research, education, and advocacy initiatives led by the American
-            Heart Association. By making a contribution, you become an
-            invaluable partner in the fight against heart disease, a condition
-            that took my parents from me. Your support will enable the American
-            Heart Association to continue its vital work in promoting heart
-            health, preventing cardiovascular diseases, and improving the lives
-            of those affected.
-          </p>
-          <p className="donate_pg">
             Together, we can create a world where heart disease is a thing of
             the past. Your donation, no matter the amount, will contribute to
-            our collective progress. Let's track our donation progress and
+            our collective progress. Let&apos;s track our donation progress and
             celebrate each step forward on the path to a healthier future.
           </p>
           <p className="donate_pg">
@@ -104,15 +92,6 @@ export function Donate(props) {
               visit this page
             </a>
             .
-          </p>
-          <p className="donate_pg">
-            Your involvement with the American Heart Association and your
-            contribution will help drive positive change and save lives. Thank
-            you for joining me in supporting the American Heart Association and
-            the fight against heart disease. Together, we can make a lasting
-            difference in the lives of individuals and families affected by this
-            devastating condition. Let's empower hearts and save lives! Scroll
-            down for donation progress.
           </p>
         </div>
       </div>
