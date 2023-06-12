@@ -142,12 +142,14 @@ export function Donate(props) {
       ))}
 
       <>
-        <h1>New comment</h1>
-        <form>
-          <div>
+        <h1 className="donation_comments">New comment</h1>
+        <form className="donation_comments">
+          <div className="donation_comments">
             body: <input name="body" type="text" />
           </div>
-          <button type="submit">Create comment</button>
+          <button type="submit" className="donation_comments">
+            Create comment
+          </button>
         </form>
       </>
     </div>
