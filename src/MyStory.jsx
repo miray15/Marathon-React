@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 
 export function MyStory(props) {
-  console.log(props.pictureComments);
-  const [likeCount, setLikeCount] = useState(0);
+  // console.log(props.pictureComments);
+  // const [likeCount, setLikeCount] = useState(0);
 
-  const handleButtonClick = () => {
-    setLikeCount(likeCount + 1);
-  };
+  // const handleButtonClick = () => {
+  //   setLikeCount(likeCount + 1);
+  // };
 
   return (
     <div>
@@ -76,19 +76,20 @@ export function MyStory(props) {
         />
         <div className="text-container">
           <p>
-            When I returned from China in 2017, I realized I needed a sport to
-            maintain my fitness and healthy habits. Running is easily one of the
-            most accessible sports on the planet! Grab a pair of shoes and run!
-            As I got more competitive, I invested in a pair of shoes that
-            matched the needs of my feet, and since then have been updating them
-            every 300 miles. I also began continued biking for My mother died of
-            complications from diabetes, so in the last few years I've been
-            paying close attention to my A1C. Realizing that making lifestyle
-            changes later in life would be more challenging than making them
-            now, I started following the Mediterranean Diet: eliminating all
-            meat except for seafood, and maintaining a strong intake of nuts and
-            seeds This proved to be successful in lowering my A1C! I am in the
-            lowest bracket of the average range!
+            When I returned from Shanghai in 2017, I made it a point to continue
+            the healthy habits I started abroad. Running made the most sense!
+            All you need is a pair of shoes, and you can start your journey
+            (metaphorically and otherwise). What motivated me to make this
+            fitness change was acknowleding all the women in my life who
+            suffered from diabetes, which was one of the comorbid causes of my
+            mom&apos;s death. At 30, I began paying attention to my A1C levels,
+            adjusting my eating habits to reflect the Medditerannean diet, or
+            minimizing red meat and eating more legumes and olive oil. My A1C
+            went down since my diet change, and I&apos;m now in the lowest
+            healthy bracket for adults! If you&apos;re like me and looking to
+            make a lifestyle change, grab a pair of shoes and hit the road! Your
+            healthier self will thank you! Comment your own journey to health
+            below!
           </p>
         </div>
         <img
@@ -104,12 +105,15 @@ export function MyStory(props) {
         </div>
       ))}
 
-      <h1>New comment</h1>
+      <h1>I have Something to Say:</h1>
       <form>
         <div>
-          body: <input name="body" type="text" />
+          body:{" "}
+          <textarea rows="4" cols="50">
+            This is a text paragraph input.
+          </textarea>
         </div>
-        <button type="submit">Create comment</button>
+        <button type="submit">Share my Story</button>
       </form>
     </div>
   );
