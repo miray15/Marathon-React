@@ -63,8 +63,11 @@ export function MyStory(props) {
         </div>
       </nav>
       <h1>My Race Story</h1>
-      <div className="image-container-left">
-        <img src="https://i.ibb.co/2FpbZkN/WWUR2439.jpg" />
+      <div>
+        <img
+          src="https://i.ibb.co/2FpbZkN/WWUR2439.jpg"
+          className="image-container"
+        />
         <div className="text-container">
           <p>
             When I returned from Shanghai in 2017, I made it a point to continue
@@ -85,8 +88,7 @@ export function MyStory(props) {
         </div>
         <img
           src="https://miray15.github.io/removed_backgroun2.jpg"
-          className="image-container-right"
-          style={{ height: "100%", width: "50%", objectFit: "cover" }}
+          className="image-container"
         />
       </div>
       <br />
