@@ -32,6 +32,15 @@ export function Family() {
                 <a
                   className="nav-link active"
                   aria-current="page"
+                  href="/family"
+                >
+                  Family
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  className="nav-link active"
+                  aria-current="page"
                   href="/mystory"
                 >
                   My Story

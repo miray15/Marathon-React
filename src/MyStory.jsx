@@ -31,14 +31,13 @@ export function MyStory(props) {
                   Home
                 </a>
               </li>
-
               <li className="nav-item">
                 <a
                   className="nav-link active"
                   aria-current="page"
-                  href="/donate"
+                  href="/family"
                 >
-                  Donation Progress
+                  Family
                 </a>
               </li>
               <li className="nav-item">
@@ -54,9 +53,9 @@ export function MyStory(props) {
                 <a
                   className="nav-link active"
                   aria-current="page"
-                  href="/family"
+                  href="/donate"
                 >
-                  Family
+                  Donate
                 </a>
               </li>
             </ul>
