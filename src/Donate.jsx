@@ -77,7 +77,7 @@ export function Donate(props) {
           <p className="donate_pg">
             I am incredibly grateful for the generosity shown so far, and your
             support has been fundamental in fueling my fundraising efforts for
-            the American Heart Association. However, there's still more to
+            the American Heart Association. However, there&apos;s still more to
             accomplish.
           </p>
           <p className="donate_pg">
