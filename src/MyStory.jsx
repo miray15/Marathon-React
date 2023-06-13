@@ -5,10 +5,6 @@ export function MyStory(props) {
     <div className="mystory-div">
       <h1>My Race Story</h1>
       <div>
-        <img
-          src="https://i.ibb.co/2FpbZkN/WWUR2439.jpg"
-          className="image-container"
-        />
         <div className="text-container">
           <p>
             When I returned from Shanghai in 2017, I made it a point to continue
@@ -25,7 +21,6 @@ export function MyStory(props) {
             make a lifestyle change, grab a pair of shoes and hit the road! Your
             healthier self will thank you. below!
           </p>
-          <br />
         </div>
         <img
           src="https://miray15.github.io/removed_backgroun2.jpg"

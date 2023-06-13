@@ -1,16 +1,12 @@
 export function Home() {
   return (
     <div className="home-page">
-      <nav>
-        <div className="navbar_home">
-          <a href="/">Home</a>
-          <a href="/family">Family</a>
-          <a href="/mystory">My Story</a>
-          <a href="/donate">Donate</a>
-        </div>
-      </nav>
-
-      <h1 className="intro">Look, it&apos;s 1996!</h1>
+      <h1></h1>
+      <br />
+      <br />
+      <h1 className="intro">
+        Help me fundraise for the American Heart Assocation
+      </h1>
       <p className="home-pg">
         We&apos;re going back in time, to a place where{" "}
         <a href="https://firstmonday.org/ojs/index.php/fm/article/view/799/708">
@@ -30,12 +26,6 @@ export function Home() {
         Welcome to Mimi&apos;s first website, to support an awesome cause!
       </p>
 
-      <h1>
-        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">
-          Why I&apos;m running the 2023 Chicago Marathon
-        </a>
-      </h1>
-
       <p className="home-pg">
         {" "}
         This is a picture of my mom and dad. If you know me, you know my mom and
@@ -46,9 +36,9 @@ export function Home() {
       <p className="home-pg">
         {" "}
         As tragic as this is, it has motivated me to take control of my health.
-        I am running the 2023 Chicago Marathon for my parents, for my family,
-        and for myself. <br /> As long as I live, I will do everything in my
-        power to take care of my own heart and everyone&apos;s heart around me
+        I am running the 2023 Chicago Marathon for the American Heart
+        Association to honor my parents, and support those with heart disease
+        across the U.S <br />
         ❤️{" "}
       </p>
 
