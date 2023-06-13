@@ -92,22 +92,6 @@ export function MyStory(props) {
         />
       </div>
       <br />
-      {props.pictureComments.map((picture) => (
-        <div key={picture.id}>
-          <h2>{picture.body}</h2>
-        </div>
-      ))}
-      <h3 className="mystory-comment-title">Share Your Health Journey</h3>
-      <form>
-        <div className="mystory-comment-box">
-          <textarea rows="4" cols="50">
-            Write about your own victories here
-          </textarea>
-        </div>
-        <button type="submit" className="mystory-button">
-          Share my Story
-        </button>
-      </form>
     </div>
   );
 }
