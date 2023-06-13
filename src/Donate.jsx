@@ -64,11 +64,12 @@ export function Donate(props) {
         </div>
       ))}
 
-      <>
-        <h1 className="donation_comments">Why I Want to Make a Difference</h1>
+      <h1 className="donation_comments">Why I Want to Make a Difference</h1>
+
+      <div className="donation-section">
         {/* <form className="donation_comments"> */}
         <div className="cursor">
-          <input type="text" className="rq-form-element" />
+          <input type="text-area" className="donation_comments" />
           <i></i>
         </div>
 
@@ -82,8 +83,7 @@ export function Donate(props) {
             </textarea>
           </div> */}
         {/* </form> */}
-      </>
-
+      </div>
       <br />
       <br />
       <br />

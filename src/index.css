@@ -233,12 +233,12 @@ text-align: center;
 .donation_comments { 
   text-align: center;
   caret-color: transparent;
-  animation: blink-caret 1s step-end infinite;
+  
 }
 
 .donation_button {
 
-  text-align: center;
+  text-align: left;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   color: #fff;
@@ -250,6 +250,10 @@ text-align: center;
 
 }
 
+.donation-section {
+  text-align: center;
+}
+
 .cursor {
   position: relative;
 }
@@ -258,16 +262,23 @@ text-align: center;
   width: 1px;
   height: 80%;
   background-color: gray;
-  left: 5px;
+  left: 43.5%;
   top: 10%;
   animation-name: blink;
   animation-duration: 800ms;
   animation-iteration-count: infinite;
   opacity: 1;
+  justify-content: center;
+}
+
+.rq-form-element{
+text-align: center;
 }
 
 .cursor input:focus + i {
   display: none;
+  text-align: center;
+  justify-content: center;
 }
 
 @keyframes blink {
