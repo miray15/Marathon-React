@@ -40,23 +40,11 @@ export function Home() {
         U.S. <br />{" "}
       </p>
 
-      <p>
-        {" "}
-        Use the navigation bar at the top of the screen to check out my other
-        pages.
-      </p>
-
       <img
         src="https://miray15.github.io/mom-and-dad_3.jpeg"
         alt="Image"
         className="img_home"
       />
-
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
     </div>
   );
 }
