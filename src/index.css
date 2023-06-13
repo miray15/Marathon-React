@@ -284,6 +284,11 @@ text-align: center;
 @keyframes blink {
   from { opacity: 1; }
   to { opacity: 0; }
+
+}
+
+.donate-pg {
+  text-align: center;
 }
 
 

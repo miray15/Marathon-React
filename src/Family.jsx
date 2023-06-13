@@ -24,7 +24,7 @@ export function Family() {
         <h3 className="baba-text">He was 66</h3>
         <p className="baba-text">
           My dad wanted the best for me, and worked hard to design a future
-          where I would feel success. He learned to bake the best bread, make
+          where I would be successful. He learned to bake the best bread, make
           wheels of cheese he shared with family and friends, and loved me
           endlessly.
         </p>

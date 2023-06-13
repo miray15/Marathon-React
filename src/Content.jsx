@@ -51,11 +51,11 @@ export function Content() {
           path="/mystory"
           element={<MyStory pictureComments={pictureComments} />}
         />
-        <Route path="/signup" element={<Signup />} />
+        {/* <Route path="/signup" element={<Signup />} />
 
         <Route path="/login" element={<Login />} />
         <Route path="/logout" element={<LogoutLink />} />
-        <Route path="/family" element={<Family />} />
+        <Route path="/family" element={<Family />} /> */}
       </Routes>
     </div>
   );
