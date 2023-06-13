@@ -30,17 +30,16 @@ export function Home() {
       <p className="home-pg">
         {" "}
         This is a picture of my mom and dad. If you know me, you know my mom and
-        dad meant the world to me. What you might not know is they both died of
+        dad meant the world to me. What you may not know is they both died of
         heart attacks before I turned 30.{" "}
       </p>
 
       <p className="home-pg">
         {" "}
-        As tragic as this is, it has motivated me to take control of my health.
-        I am running the 2023 Chicago Marathon for the American Heart
-        Association to honor my parents, and support those with heart disease
-        across the U.S <br />
-        ❤️{" "}
+        As tragic as this was, it motivated me to take control of my health. I
+        am running the 2023 Chicago Marathon for the American Heart Association
+        to honor my parents, and support those with heart disease across the U.S{" "}
+        <br />{" "}
       </p>
 
       <img
