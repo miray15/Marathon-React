@@ -26,16 +26,12 @@ export function Donate(props) {
           <p className="donate_pg">
             I am incredibly grateful for the generosity shown so far, and your
             support has been fundamental in fueling my fundraising efforts for
-            the American Heart Association. However, there&apos;s still more to
-            do.
+            the American Heart Association. But there&apos;s still more to do.
           </p>
           <p className="donate_pg">
-            Together, we can eradicate heart disease. Your donation, no matter
-            the amount, will contribute to our progress. Let&apos;s celebrate
-            each step forward on the path to a healthier future.
-          </p>
-          <p className="donate_pg">
-            To make a donation and keep track of our collective impact,{" "}
+            Together, we can work to eradicate heart disease. Your donation, no
+            matter the amount, will contribute to our progress. To make a
+            donation and keep track of our collective impact,{" "}
             <a href="https://www2.heart.org/site/TR/Marathon/MWA-MidWestAffiliate?px=26207527&pg=personal&fr_id=8944">
               visit this page
             </a>
@@ -65,11 +61,15 @@ export function Donate(props) {
       ))}
 
       <h1 className="donation_comments">Why I Want to Make a Difference</h1>
-
+      <p className="donate-pg">
+        {" "}
+        Share your reasons for donating in this text box below.
+      </p>
       <div className="donation-section">
         {/* <form className="donation_comments"> */}
+
         <div className="cursor">
-          <input type="text-area" className="donation_comments" />
+          <textarea rows="1" cols="20"></textarea>
           <i></i>
         </div>
 
