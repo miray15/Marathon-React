@@ -71,7 +71,7 @@ a:hover {
 }
 
 a:visited {
-  color: lightgreen; 
+  color: black; 
 }
 
 
@@ -98,7 +98,7 @@ a:visited {
   animation: wavy 2s linear infinite;
   text-align: center;
   font-size: 3rem;
-  background-image: url('https://media.tenor.com/uyTDmqIoo08AAAAM/piros-h%C3%A1tt%C3%A9rrel-csillagok-red-background-with-stars.gif');
+  background-image: url('https://img1.picmix.com/output/stamp/normal/7/7/8/5/505877_4af94.gif');
   background-size: cover;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -133,7 +133,7 @@ a:visited {
 
 
 .mystory-div {
-  background-color: #808471;
+  background-color: ##AAB5B9;
   
 }
 
@@ -191,7 +191,7 @@ button:hover {
 /* Donate Page */
 
 .Donate {
-  background-color: #ca2e2e;
+  background-color: #AAB5B9;
 }
 
 .donate-header-font {
@@ -248,6 +248,31 @@ text-align: center;
   border-radius: 4px;
   cursor: crosshair;
 
+}
+
+.cursor {
+  position: relative;
+}
+.cursor i {
+  position: absolute;
+  width: 1px;
+  height: 80%;
+  background-color: gray;
+  left: 5px;
+  top: 10%;
+  animation-name: blink;
+  animation-duration: 800ms;
+  animation-iteration-count: infinite;
+  opacity: 1;
+}
+
+.cursor input:focus + i {
+  display: none;
+}
+
+@keyframes blink {
+  from { opacity: 1; }
+  to { opacity: 0; }
 }
 
 /* fundraising thermometer */
@@ -334,11 +359,12 @@ text-align: center;
  /* family navbar */
 
 .navbar {
-  background-color: #Aab5b9;
+  background-color: white;
   padding: 10px;
   display: flex;
   justify-content: flex-end; /* Align items to the right */
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  border: black;
 }
 
 .navbar-menu {
@@ -355,12 +381,12 @@ text-align: center;
 
 .navbar-menu a {
   text-decoration: none;
-  color: #333;
+  color: grey;
   padding: 5px 10px;
 }
 
 .navbar-menu a:hover {
-  background-color: #ccc;
+  background-color: grey;
 }
 
     

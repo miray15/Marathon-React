@@ -17,21 +17,25 @@ export function Donate(props) {
             className="hands-image"
           />
 
-          <h1>My Donation Progress</h1>
+          <h1>
+            {" "}
+            <a href="https://www2.heart.org/site/TR/Marathon/MWA-MidWestAffiliate?px=26207527&pg=personal&fr_id=8944">
+              Donate Here
+            </a>
+          </h1>
           <p className="donate_pg">
             I am incredibly grateful for the generosity shown so far, and your
             support has been fundamental in fueling my fundraising efforts for
             the American Heart Association. However, there&apos;s still more to
-            accomplish.
+            do.
           </p>
           <p className="donate_pg">
-            Together, we can create a world where heart disease is a thing of
-            the past. Your donation, no matter the amount, will contribute to
-            our collective progress. Let&apos;s track our donation progress and
-            celebrate each step forward on the path to a healthier future.
+            Together, we can eradicate heart disease. Your donation, no matter
+            the amount, will contribute to our progress. Let&apos;s celebrate
+            each step forward on the path to a healthier future.
           </p>
           <p className="donate_pg">
-            To make a donation and keep track of our collective impact, please{" "}
+            To make a donation and keep track of our collective impact,{" "}
             <a href="https://www2.heart.org/site/TR/Marathon/MWA-MidWestAffiliate?px=26207527&pg=personal&fr_id=8944">
               visit this page
             </a>
@@ -62,16 +66,22 @@ export function Donate(props) {
 
       <>
         <h1 className="donation_comments">Why I Want to Make a Difference</h1>
-        <form className="donation_comments">
-          <div className="donation_comments">
+        {/* <form className="donation_comments"> */}
+        <div className="cursor">
+          <input type="text" className="rq-form-element" />
+          <i></i>
+        </div>
+
+        <button type="submit" className="donation_button">
+          Create comment
+        </button>
+
+        {/* <div className="donation_comments">
             <textarea rows="4" cols="50">
               Share your reasons for donating
             </textarea>
-          </div>
-          <button type="submit" className="donation_button">
-            Create comment
-          </button>
-        </form>
+          </div> */}
+        {/* </form> */}
       </>
 
       <br />
