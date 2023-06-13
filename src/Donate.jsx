@@ -53,7 +53,6 @@ export function Donate(props) {
           <span className="goal-label">Raised</span>
         </div>
       </div>
-
       {props.donationComments.map((comment) => (
         <div key={comment.id}>
           <h2>{comment.body}</h2>
@@ -67,7 +66,6 @@ export function Donate(props) {
       </p>
       <div className="donation-section">
         {/* <form className="donation_comments"> */}
-
         <div className="cursor">
           <textarea rows="1" cols="20"></textarea>
           <i></i>

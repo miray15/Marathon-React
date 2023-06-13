@@ -54,8 +54,8 @@ export function Content() {
         {/* <Route path="/signup" element={<Signup />} />
 
         <Route path="/login" element={<Login />} />
-        <Route path="/logout" element={<LogoutLink />} />
-        <Route path="/family" element={<Family />} /> */}
+        <Route path="/logout" element={<LogoutLink />} /> */}
+        <Route path="/family" element={<Family />} />
       </Routes>
     </div>
   );

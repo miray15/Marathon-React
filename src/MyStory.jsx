@@ -22,7 +22,7 @@ export function MyStory(props) {
             the Medditerannean diet, or minimizing red meat and eating more
             legumes. My A1C went down since my diet change last year, and
             I&apos;m now in the lowest healthy bracket for adults! If
-            you&apos;re like me and looking to make a lifestyle change, grab a
+            you&apos;re like me and looking to make a lifestyle change, grab
             pair of shoes and hit the road. Your healthier self will thank you!
           </p>
         </div>
