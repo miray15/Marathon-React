@@ -10,16 +10,17 @@ export function Home() {
       <p className="home-pg">
         We&apos;re going back in time, to a place where{" "}
         <a href="https://firstmonday.org/ojs/index.php/fm/article/view/799/708">
-          Al Gore invented the internet
+          Al Gore{" "}
         </a>
-        , everyone was getting Rick Rolled, and all of our favorite cat&apos;s
-        name was{" "}
-        <a
-          href="https://www.youtube.com/watch?v=QH2-TGUlwu4&ab_channel=NyanCat
-  "
-        >
-          Nyan
+        <a href="https://firstmonday.org/ojs/index.php/fm/article/view/799/708" />
+        invented the internet, everyone was getting{" "}
+        <a href="https://www.youtube.com/watch?v=QH2-TGUlwu4&ab_channel=NyanCat">
+          Rick Rolled,
         </a>{" "}
+        and all of our favorite cat&apos;s name was{" "}
+        <a href="https://www.youtube.com/watch?v=QH2-TGUlwu4&ab_channel=NyanCat">
+          Nyan.
+        </a>
       </p>
 
       <p className="home-pg">
