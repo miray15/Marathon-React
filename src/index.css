@@ -97,7 +97,7 @@ a:visited {
   text-decoration-style: wavy;
   animation: wavy 2s linear infinite;
   text-align: center;
-  font-size: 3rem;
+  font-size: 30px;
   background-image: url('https://img1.picmix.com/output/stamp/normal/7/7/8/5/505877_4af94.gif');
   background-size: cover;
   -webkit-background-clip: text;

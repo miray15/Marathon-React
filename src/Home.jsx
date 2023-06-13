@@ -4,9 +4,7 @@ export function Home() {
       <h1></h1>
       <br />
       <br />
-      <h1 className="intro">
-        Help me fundraise for the American Heart Assocation
-      </h1>
+      <h1 className="intro">Why I&apos;m running the Chicago Marathon</h1>
       <p className="home-pg">
         We&apos;re going back in time, to a place where{" "}
         <a href="https://firstmonday.org/ojs/index.php/fm/article/view/799/708">
@@ -38,8 +36,14 @@ export function Home() {
         {" "}
         As tragic as this was, it motivated me to take control of my health. I
         am running the 2023 Chicago Marathon for the American Heart Association
-        to honor my parents, and support those with heart disease across the U.S{" "}
-        <br />{" "}
+        to honor my parents, and support those with heart disease across the
+        U.S. <br />{" "}
+      </p>
+
+      <p>
+        {" "}
+        Use the navigation bar at the top of the screen to check out my other
+        pages.
       </p>
 
       <img
