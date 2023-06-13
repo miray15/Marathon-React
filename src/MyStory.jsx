@@ -5,6 +5,10 @@ export function MyStory(props) {
     <div className="mystory-div">
       <h1>My Race Story</h1>
       <div>
+        <img
+          src="https://miray15.github.io/sh_friends.jpeg"
+          className="image-container"
+        />
         <div className="text-container">
           <p>
             When I returned from Shanghai in 2017, I made it a point to continue
