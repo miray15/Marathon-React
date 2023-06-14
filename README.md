@@ -1,12 +1,12 @@
 # Marathon-React 
 
-###About Me 
+### About Me 
 
-###Why 
+### Why 
  
-###Access 
+### Access 
 
-###Demonstrations 
+### Demonstrations 
 
 Marathon-React is a fundraising website for my Chicago Marathon race in October 2023. 
 
