@@ -53,6 +53,7 @@ export function Donate(props) {
           <span className="goal-label">Raised</span>
         </div>
       </div>
+
       {props.donationComments.map((comment) => (
         <div key={comment.id}>
           <h2>{comment.body}</h2>
