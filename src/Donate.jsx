@@ -60,29 +60,6 @@ export function Donate(props) {
         </div>
       ))}
 
-      <h1 className="donation_comments">Why I Want to Make a Difference</h1>
-      <p className="donate-pg">
-        {" "}
-        Share your reasons for donating in this text box below.
-      </p>
-      <div className="donation-section">
-        {/* <form className="donation_comments"> */}
-        <div className="cursor">
-          <textarea rows="1" cols="20"></textarea>
-          <i></i>
-        </div>
-
-        <button type="submit" className="donation_button">
-          Create comment
-        </button>
-
-        {/* <div className="donation_comments">
-            <textarea rows="4" cols="50">
-              Share your reasons for donating
-            </textarea>
-          </div> */}
-        {/* </form> */}
-      </div>
       <br />
       <br />
       <br />
