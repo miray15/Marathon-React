@@ -332,7 +332,7 @@ text-align: center;
 
 #progress {
   float: left;
-  width: 6%;
+  width: 10%;
   height: 20px;
   background: #FF5D50;
   z-index: 333;
