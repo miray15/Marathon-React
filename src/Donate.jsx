@@ -22,6 +22,7 @@ export function Donate(props) {
             <a href="https://www2.heart.org/site/TR/Marathon/MWA-MidWestAffiliate?px=26207527&pg=personal&fr_id=8944">
               Donate Here
             </a>
+            <h5> This will take you to a new page</h5>
           </h1>
           <p className="donate_pg">
             I am incredibly grateful for the generosity shown so far, and your
