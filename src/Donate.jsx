@@ -23,7 +23,7 @@ export function Donate(props) {
               Donate Here
             </a>
             <h6> This will take you to a new page</h6>
-            <h6>(Scroll down to donate)</h6>
+            <h6>(Scroll down on that page to donate)</h6>
           </h1>
           <p className="donate_pg">
             I am incredibly grateful for the generosity shown so far, and your
