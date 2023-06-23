@@ -47,11 +47,11 @@ export function Donate(props) {
           <div id="progress"></div>
         </div>
         <div className="goal-stat">
-          <span className="goal-number">42%</span>
+          <span className="goal-number">46%</span>
           <span className="goal-label">Funded</span>
         </div>
         <div className="goal-stat">
-          <span className="goal-number">$535</span>
+          <span className="goal-number">$585</span>
           <span className="goal-label">Raised</span>
         </div>
       </div>
